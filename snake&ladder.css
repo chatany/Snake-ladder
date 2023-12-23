@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    border: 2px;
+}
+.cs{
+    border: 2px solid red;
+    height:120px;
+    width: 24%;
+
+}

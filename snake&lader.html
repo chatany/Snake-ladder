@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./snake&ladder.css">
+</head>
+<body><div id="game">
+    <div class="container">
+        <div class="cs">
+            <span style="margin-left: 5px;"><label><b>Player 1 Name:</b></label><input id="p1" type="text"style="margin-left:5px"></span>
+            <h3 style="margin-left: 5px;">score:<input id ="1" type="text" placeholder="0" disabled></h3>
+        </div>
+        <div class="cs">
+            <span style="margin-left: 5px;"><label><b>Player 2 Name:</b></label><input id="p2" type="text"style="margin-left:5px"></span>
+            <h3 style="margin-left: 5px;">score:<input id ="2" type="text" placeholder="0" disabled></h3>
+        </div>
+        <div class="cs">
+            <span style="margin-left: 5px;"><label><b>Player 3 Name:</b></label><input id="p3" type="text"style="margin-left:5px"></span>
+            <h3 style="margin-left: 5px;">score:<input id ="3" type="text" placeholder="0" disabled></h3>
+        </div>
+        <div class="cs">
+            <span style="margin-left: 5px;"><label><b>Player 4 Name:</b></label><input id="p4" type="text"style="margin-left:5px"></span>
+            <h3 style="margin-left: 5px;">score:<input id ="4" type="text" placeholder="0" disabled></h3>
+        </div>
+        <br><br>
+    </div>
+    <input id="player" type="text" style="margin-left: 300px;">
+    <br>
+    <input type="text" id="label"disabled>
+    <div id="span" style="margin-left: 350px;height:50px;width:50px;margin-bottom: 20px;"></div>
+    <br>
+    <br>
+        <button onclick="play()" id="button" style="margin-left: 47%;height: 10%;width: 10%;padding: 10px;color: aqua;background-color: rgb(30, 187, 135);">play</button>
+</div>
+<div id="winner"hidden>
+    <h1>winner:-<span id="win" ></span></h1>
+</div>
+        <script src="./snake&ladder.js"></script>
+</body>
+</html>
